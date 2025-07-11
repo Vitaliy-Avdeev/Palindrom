@@ -1,4 +1,3 @@
-
 public class Palindromic {
     public static boolean isPalindrome(String str) {
         str = str.replaceAll("\\s+", "").toLowerCase();
@@ -16,7 +15,6 @@ public class Palindromic {
         }
         return true;
     }
-
     public static void main(String[] args) {
 
         String test1 = "madam";
